@@ -1,5 +1,3 @@
-## vim comannd(1)
-
 h - cursor moves left
 j - 下に移動
 k - 上に移動
