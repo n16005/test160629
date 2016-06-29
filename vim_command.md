@@ -1,8 +1,6 @@
 ## vim comannd(1)
 
-### vim normal mode comannd list
-
-1. h - cursor moves left
+h - cursor moves left
 j - 下に移動
 k - 上に移動
 l - 右に移動
@@ -29,4 +27,4 @@ G -行の最後の非空白文字へジャンプ
 :s/old/new/g ファイル内の全ての "old" を "new" に置換する。
 ### vim insert/append mode command list
 
-1. esc - モード切り替え
+esc - モード切り替え
