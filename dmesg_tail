@@ -1,0 +1,15 @@
+[  363.258932] XFS (sda2): Invalid superblock magic number
+[  363.266498] FAT-fs (sda2): bogus number of reserved sectors
+[  363.266508] FAT-fs (sda2): Can't find a valid FAT filesystem
+[  363.277020] VFS: Can't find a Minix filesystem V1 | V2 | V3 on device sda2.
+[  363.280895] hfsplus: unable to find HFS+ superblock
+[  363.285704] qnx4: no qnx4 filesystem (no root dir).
+[  363.289385] ufs: You didn't specify the type of your ufs filesystem
+               
+               mount -t ufs -o ufstype=sun|sunx86|44bsd|ufs2|5xbsd|old|hp|nextstep|nextstep-cd|openstep ...
+               
+               >>>WARNING<<< Wrong ufstype may corrupt your filesystem, default is ufstype=old
+[  363.289587] ufs: ufs_fill_super(): bad magic number
+[  363.296866] hfs: can't find a HFS filesystem on dev sda2
+[ 2064.688309] perf interrupt took too long (2502 > 2500), lowering kernel.perf_event_max_sample_rate to 50000
+
